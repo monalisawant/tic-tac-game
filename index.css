@@ -1,0 +1,25 @@
+.box{
+   width: 300px;
+   border: 2x solid black;
+   background-color: antiquewhite;
+
+   margin:  auto auto;
+   text-align: center;
+
+
+}
+
+.grid{
+ display:grid;
+ width: 200px;
+ margin: auto auto;
+ grid: 50px 50px 50px / auto auto auto;
+ background-color: rgb(40, 39, 37);
+
+
+}
+.child{
+    padding:10px;
+    background-color:white ;
+    margin: 5px;
+}
